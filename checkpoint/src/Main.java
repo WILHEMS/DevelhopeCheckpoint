@@ -1,17 +1,32 @@
-// Press Shift twice to open the Search Everywhere dialog and type `show whitespaces`,
-// then press Enter. You can now see whitespace characters in your code.
+import exercise.Movie;
+import exercise.Playlist;
+import exercise.School;
+
+import java.time.LocalDate;
+
 public class Main {
     public static void main(String[] args) {
-        // Press Alt+Enter with your caret at the highlighted text to see how
-        // IntelliJ IDEA suggests fixing it.
-        System.out.printf("Hello and welcome!");
+        //Movie class
+        Movie movie = new Movie();
+        movie.genre = "Drama";
+        movie.title = "Breaking Bad";
+        movie.releaseYear = 2003;
 
-        // Press Shift+F10 or click the green arrow button in the gutter to run the code.
-        for (int i = 1; i <= 5; i++) {
+        System.out.println(movie.genre);
+        System.out.println(movie.title);
+        System.out.println(movie.releaseYear);
 
-            // Press Shift+F9 to start debugging your code. We have set one breakpoint
-            // for you, but you can always add more by pressing Ctrl+F8.
-            System.out.println("i = " + i);
-        }
+        //School Class
+        School student1 = new School("Bolton", "Nairobi", 23);
+        School student2 = new School("Derick", "Nairobi", 23);
+        School student3 = new School("Wilhems", "Nairobi", 23);
+
+        System.out.println("Student 1 details name "+student1.name+" "+ "age "+student1.age);
+        System.out.println("Student 2 details name "+student2.name+" "+ "age "+student2.age);
+        System.out.println("Student 3 details name "+student3.name+" "+ "age "+student3.age);
+
+        //Playlist Class
+        Playlist song1 = new Playlist()
+
     }
 }
