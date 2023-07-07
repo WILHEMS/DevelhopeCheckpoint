@@ -26,7 +26,12 @@ public class Main {
         System.out.println("Student 3 details name "+student3.name+" "+ "age "+student3.age);
 
         //Playlist Class
-        Playlist song1 = new Playlist()
+        Playlist song1 = new Playlist("Amapiano", "Olamide");
+        Playlist song2 = new Playlist("Last last", "Burna Boy");
+
+        System.out.println("Song 1 details name "+ song1.name+" "+ "Creator "+song1.creator);
+        System.out.println("Song 2 details name "+ song2.name+" "+ "Creator "+song2.creator);
+
 
     }
 }
