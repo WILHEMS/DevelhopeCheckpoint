@@ -8,5 +8,8 @@ public class Main {
         Restaurant restaurant = new Restaurant("Sarova","Jacuzzi");
         restaurant.addMenu(restaurant, "Fish");
         System.out.println(restaurant.menuItem);
+
+        Triangle triangle = new Triangle(1,2,3);
+        System.out.println(triangle.TriangleType());
     }
 }
